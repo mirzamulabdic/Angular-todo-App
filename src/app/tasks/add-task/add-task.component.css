@@ -1,0 +1,14 @@
+#unos {
+  width: 80%;
+  margin: auto;
+  width: 468px;
+  border: 10px;
+}
+#dugme {
+  margin-left: 10px;
+  border-radius: 15px;
+}
+p {
+  font-size: 15px;
+  color: red;
+}

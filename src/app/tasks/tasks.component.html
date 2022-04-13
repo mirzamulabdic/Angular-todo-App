@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <p class="h2">My tasks</p>
+      <app-add-task></app-add-task>
+
+      <app-task-element
+        *ngFor="let el of taskElements"
+        [tskEl]="el"
+      ></app-task-element>
+    </div>
+  </div>
+</div>

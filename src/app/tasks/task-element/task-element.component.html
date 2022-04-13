@@ -1,0 +1,14 @@
+<div class="d-flex justify-content-between d-flex gap-3" id="kolona">
+  <div class="d-flex justify-content-between" id="ispis">
+    <p>{{ taskElement.content }}</p>
+  </div>
+  <div>
+    <button
+      type="button"
+      class="btn-close"
+      aria-label="Close"
+      (click)="onItemClick()"
+    ></button>
+  </div>
+</div>
+<hr />

@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <p class="h2">Completed tasks</p>
+      <h4 *ngIf="removedTasks.length === 0" style="color: brown">
+        You haven't finished any tasks!
+      </h4>
+      <app-completed-task-element
+        *ngFor="let el of removedTasks"
+        [remElements]="el"
+      ></app-completed-task-element>
+    </div>
+  </div>
+</div>

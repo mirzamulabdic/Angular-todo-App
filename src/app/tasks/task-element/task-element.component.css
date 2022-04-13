@@ -1,0 +1,24 @@
+#kolona {
+  border-radius: 10px;
+  background: #c9f6c8;
+  padding: 20px;
+
+  height: 40px;
+  align-items: center;
+  margin-bottom: 10px;
+
+  text-align: center;
+  margin: auto;
+  width: 468px;
+  margin-top: 15px;
+}
+#ispis {
+  align-items: center;
+  text-align: center;
+}
+
+hr {
+  margin: auto;
+  width: 468px;
+  margin-top: 15px;
+}

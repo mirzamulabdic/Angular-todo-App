@@ -1,0 +1,14 @@
+.box {
+  height: 100vh;
+  text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+}
+h2 {
+  margin-top: 5%;
+  color: rgb(214, 209, 209);
+}
+.lead {
+  margin-top: 5%;
+  font-size: 30px;
+  color: aliceblue;
+}
